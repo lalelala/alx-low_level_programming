@@ -1,0 +1,2 @@
+FUNCTIONS :  A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. Functions are used to perform certain actions, and they are important for reusing code: Define the code once, and use it many times.
+NESTED LOOP : A loop within another loop is called a nested loop. Nested loop means a loop statement inside another loop statement. That's why nested loop are also called as loop inside loop.
