@@ -4,7 +4,7 @@
  * prints numbers 0 -9
  * does not print 2 and 4
  */
-void print_most-numbers(void)
+void print_most_numbers(void)
 {
 	int i = 0;
 	for ( i = 0; i <10; i++)
