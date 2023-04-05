@@ -2,20 +2,16 @@
 #include "main.h"
 
 /**
- *factorial : product of all positive integers less than or equal to a given positive integer.
- *@n : given number
- *return -1 if n < 0 as error
- *return factorial if correct
+ * factorial - returns the factorial of a given number.
+ * @n: input number.
+ * Return: factorial of the number.
  */
-
 int factorial(int n)
 {
-	int n;
-
 	if (n < 0)
 		return (-1);
-
+	else if (n == 0)
+		return (1);
 	else
-		return (n * factorial(n - 1);
-
+		return (n * factorial(n - 1));
 }
