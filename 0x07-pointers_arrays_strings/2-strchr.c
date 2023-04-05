@@ -3,26 +3,26 @@
 
 /**
  * *_strchr - locates a character in a string
- * @s: string to search
- * @c: char to find
+ * s = string to search
+ * c = char to find
  *
  * Return: a pointer to the first occurrence of the character
- * c in the string s, or NULL if the character is not found
+ *searched for, or NULL if the character is not found
  */
 char *_strchr(char *s, char c)
 {
-		int a;
+	int word;
 
-		while (1)
+	while (1)
+	{
+		word = *s++;
+		if (word == c)
 		{
-			a = *s++;
-			if (a == c)
-			{
-				return (s - 1);
-			}
-			if (a == 0)
-			{
-				return (NULL);
-			}
+			return (s - 1);
 		}
+		if (word == 0)
+		{
+			return (NULL);
+		}
+	}
 }
