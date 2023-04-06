@@ -10,9 +10,12 @@
 int power_op(int n, int c)
 {
 	if (c % (n / c) == 0)
-		return (-1);
-	else if (c * (n / c) == n)
-		return (c);
+	{
+		if (c * (n / c) == n)
+			return (c);
+		else
+			return (-1);
+	}
 	else
 		return (0 + power_op(n, c + 1));
 }
