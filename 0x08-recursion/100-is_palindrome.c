@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * int _strlen_recursion - retrun sting length.
+ * _strlen_recursion - gives sting length.
  * @s: string.
  * Return: string length.
  */
